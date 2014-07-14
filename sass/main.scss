@@ -10,6 +10,7 @@
 // Mixins
 @import "mixins/_buttons.scss";
 @import "mixins/_images.scss";
+@import "mixins/_pagination.scss";
 
 .CTA-Button {
   @include button();
@@ -17,6 +18,10 @@
 
 .ALT-Button {
   @include button();
+}
+
+.Pagination {
+  @include pagination;
 }
 
 img {
