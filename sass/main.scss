@@ -1,0 +1,24 @@
+// Utilities
+@import "utilities/_reset.scss";
+
+// Modules and Variables
+@import "base/base.scss";
+
+// Partials
+@import "partials/_typography.scss";
+
+// Mixins
+@import "mixins/_buttons.scss";
+@import "mixins/_images.scss";
+
+.CTA-Button {
+  @include button();
+}
+
+.ALT-Button {
+  @include button();
+}
+
+img {
+  @include image(10px);
+}

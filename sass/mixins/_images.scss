@@ -1,0 +1,5 @@
+@mixin image($border-amount: 0, $border-colour: #868686) {
+  display: inline-block;
+  margin: 10px 20px;
+  border: $border-amount solid $border-colour;
+}

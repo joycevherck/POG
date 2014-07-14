@@ -1,0 +1,65 @@
+@import "mixins/_fontface.scss";
+
+// Includes
+@include fontFace('Helvetica', 'assets/fonts/helvetica');
+
+$default-font: Helvetica, sans-serif;
+$default-font-colour: #868686;
+$default-font-weight: lighter;
+$default-font-padding: 5px 20px;
+$heading-font-weight: 800;
+$heading-font-colour: #ED4D84;
+$heading-font-padding: 10px 20px;
+$sub-heading-font-weight: 400;
+$sub-heading-font-colour: #4B5A62;
+$sub-heading-font-padding: 5px 20px;
+
+h1, h2, h3, h4, h5, p {
+  font-family: $default-font;
+  font-weight: $heading-font-weight;
+  color: $heading-font-colour;
+  padding: $heading-font-padding;
+}
+
+h1, h2 {
+  line-height: 1.1;
+}
+
+h3, h4 {
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 400%;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 250%;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 200%;
+  font-weight: $sub-heading-font-weight;
+  color: $sub-heading-font-colour;
+}
+
+h4 {
+  font-size: 180%;
+  font-weight: $sub-heading-font-weight;
+  color: $sub-heading-font-colour;
+}
+
+h5 {
+  font-size: 130%;
+  font-weight: $sub-heading-font-weight;
+  color: $sub-heading-font-colour;
+}
+
+p {
+  font-size: 100%;
+  font-weight: $default-font-weight;
+  color: $default-font-colour;
+  padding: $default-font-padding;
+}
