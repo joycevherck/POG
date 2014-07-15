@@ -6,14 +6,14 @@
   ul {
     list-style: none;
     margin: 10px 10px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     text-align: center;
   }
 
   li {
     display: inline;
     background: $background-colour;
-    padding: 5px 20px;
+    padding: 10px 20px;
 
     &.Active {
       background: #ED4D84;
