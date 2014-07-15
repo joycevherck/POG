@@ -30,35 +30,38 @@ h3, h4 {
 }
 
 h1 {
-  font-size: 400%;
+  font-size: 5em;
   letter-spacing: -2px;
 }
 
 h2 {
-  font-size: 250%;
-  letter-spacing: -1px;
+  font-size: 3em;
+  font-weight: 600;
+  color: $sub-heading-font-colour;
 }
 
 h3 {
-  font-size: 200%;
+  font-size: 2.4em;
   font-weight: $sub-heading-font-weight;
   color: $sub-heading-font-colour;
 }
 
 h4 {
-  font-size: 180%;
+  font-size: 1.8em;
   font-weight: $sub-heading-font-weight;
   color: $sub-heading-font-colour;
 }
 
 h5 {
-  font-size: 130%;
-  font-weight: $sub-heading-font-weight;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.25em;
   color: $sub-heading-font-colour;
 }
 
 p {
-  font-size: 100%;
+  font-size: 1em;
+  line-height: 1.25em;
   font-weight: $default-font-weight;
   color: $default-font-colour;
   padding: $default-font-padding;

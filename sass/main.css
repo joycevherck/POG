@@ -60,30 +60,33 @@ h3, h4 {
   line-height: 1.3; }
 
 h1 {
-  font-size: 400%;
+  font-size: 5em;
   letter-spacing: -2px; }
 
 h2 {
-  font-size: 250%;
-  letter-spacing: -1px; }
+  font-size: 3em;
+  font-weight: 600;
+  color: #4b5a62; }
 
 h3 {
-  font-size: 200%;
+  font-size: 2.4em;
   font-weight: 400;
   color: #4b5a62; }
 
 h4 {
-  font-size: 180%;
+  font-size: 1.8em;
   font-weight: 400;
   color: #4b5a62; }
 
 h5 {
-  font-size: 130%;
-  font-weight: 400;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.25em;
   color: #4b5a62; }
 
 p {
-  font-size: 100%;
+  font-size: 1em;
+  line-height: 1.25em;
   font-weight: lighter;
   color: #868686;
   padding: 5px 20px; }
@@ -107,30 +110,33 @@ h3, h4 {
   line-height: 1.3; }
 
 h1 {
-  font-size: 400%;
+  font-size: 5em;
   letter-spacing: -2px; }
 
 h2 {
-  font-size: 250%;
-  letter-spacing: -1px; }
+  font-size: 3em;
+  font-weight: 600;
+  color: #4b5a62; }
 
 h3 {
-  font-size: 200%;
+  font-size: 2.4em;
   font-weight: 400;
   color: #4b5a62; }
 
 h4 {
-  font-size: 180%;
+  font-size: 1.8em;
   font-weight: 400;
   color: #4b5a62; }
 
 h5 {
-  font-size: 130%;
-  font-weight: 400;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.25em;
   color: #4b5a62; }
 
 p {
-  font-size: 100%;
+  font-size: 1em;
+  line-height: 1.25em;
   font-weight: lighter;
   color: #868686;
   padding: 5px 20px; }
@@ -154,30 +160,33 @@ h3, h4 {
   line-height: 1.3; }
 
 h1 {
-  font-size: 400%;
+  font-size: 5em;
   letter-spacing: -2px; }
 
 h2 {
-  font-size: 250%;
-  letter-spacing: -1px; }
+  font-size: 3em;
+  font-weight: 600;
+  color: #4b5a62; }
 
 h3 {
-  font-size: 200%;
+  font-size: 2.4em;
   font-weight: 400;
   color: #4b5a62; }
 
 h4 {
-  font-size: 180%;
+  font-size: 1.8em;
   font-weight: 400;
   color: #4b5a62; }
 
 h5 {
-  font-size: 130%;
-  font-weight: 400;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.25em;
   color: #4b5a62; }
 
 p {
-  font-size: 100%;
+  font-size: 1em;
+  line-height: 1.25em;
   font-weight: lighter;
   color: #868686;
   padding: 5px 20px; }
@@ -186,7 +195,7 @@ p {
   color: white;
   display: inline-block;
   margin: 10px 20px;
-  padding: 5px 10px;
+  padding: 10px 20px;
   background: #868686;
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
@@ -198,7 +207,7 @@ p {
   color: white;
   display: inline-block;
   margin: 10px 20px;
-  padding: 5px 10px;
+  padding: 10px 20px;
   background: #868686;
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
@@ -218,7 +227,7 @@ p {
     background: #868686;
     padding: 5px 20px; }
     .Pagination li.Active {
-      background: #000000; }
+      background: #ED4D84; }
   .Pagination a {
     margin: 1px 2px;
     padding: 5px 10px;
