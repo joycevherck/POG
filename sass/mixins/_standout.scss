@@ -1,0 +1,7 @@
+@mixin standout($background-colour: #F0F0F0, $top-margins: 5%, $bottom-margins: 5%, $text-align-center: true) {
+  background: $background-colour;
+  margin: $top-margins, $bottom-margins;
+  @if $text-align-center == true {
+    text-align: center;
+  }
+}

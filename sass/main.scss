@@ -12,6 +12,7 @@
 @import "mixins/_buttons.scss";
 @import "mixins/_images.scss";
 @import "mixins/_pagination.scss";
+@import "mixins/_standout.scss";
 
 // Configure _mq
 $mq-responsive: true;
@@ -56,18 +57,18 @@ body {
   @include pull(3);
 }
 
-.Padding-Bottom {
-  padding-bottom: 100px;
+.Bottom-Padding {
+  padding-bottom: 5%;
 }
 
 .Top-Padding {
-  padding-top: 100px;
+  padding-top: 5%;
 }
 
 .Stand-Out {
-  background-color: #F0F0F0;
+  @include standout(#CAAC27, 10%, 5%, true);
 }
 
 img {
-  @include image(0px, #868686, false); // the 'false' decleration at the end is a test of adding a caption space on images
+  @include image(0px, #868686); // the 'false' decleration at the end is a test of adding a caption space on images
 }
