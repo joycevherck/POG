@@ -1,5 +1,8 @@
 // This partial contains all default variables including colours, margins, padding, etc
 
+// Imports
+@import "partials/_fontface.scss";
+
 // Configure _mq
 $mq-responsive: true;
 $mq-breakpoints: (
@@ -11,5 +14,21 @@ $mq-breakpoints: (
     desktopAd: 810px,
     mobileLandscape: 480px
 );
+
 $mq-static-breakpoint: desktop;
 $mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
+
+@include fontFace('OpenSans', 800);
+
+// Configure typography
+$default-font: OpenSans;
+$body-font: Arimo;
+$default-font-colour: #868686;
+$default-font-weight: lighter;
+$default-font-padding: 5px 20px;
+$heading-font-weight: 800;
+$heading-font-colour: #ED4D84;
+$heading-font-padding: 10px 20px;
+$sub-heading-font-weight: 400;
+$sub-heading-font-colour: #4B5A62;
+$sub-heading-font-padding: 5px 20px;

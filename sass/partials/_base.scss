@@ -1,19 +1,66 @@
-// This is is the base SASS, includes repeated styles for the entire project - think of it as global properties.
-// Can be used for ALL projects.
-
-.Float-L {
-  float: left;
-}
-
-.Float-R {
-  float: right;
-}
-
-// The following is to be considered test fluff only.
+// This is is the base SASS and targets only non-classed elements.
 
 body {
   padding-top: 50px;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: $default-font;
+  color: $heading-font-colour;
+  padding: $heading-font-padding;
+}
+
+h1 {
+  font-size: 5em;
+  letter-spacing: -2px;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 600;
+  color: $sub-heading-font-colour;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 2.4em;
+  font-weight: $sub-heading-font-weight;
+  color: $sub-heading-font-colour;
+  line-height: 1.3;
+}
+
+h4 {
+  font-size: 1.8em;
+  font-weight: $sub-heading-font-weight;
+  color: $sub-heading-font-colour;
+  line-height: 1.3;
+}
+
+h5 {
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.25em;
+  color: $sub-heading-font-colour;
+}
+
+h6 {
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.25em;
+  color: $sub-heading-font-colour;
+}
+
+p {
+  font-family: Arimo;
+  font-size: 1em;
+  line-height: 1.25em;
+  font-weight: $default-font-weight;
+  color: $default-font-colour;
+  padding: 10px 20px;
+}
+
+// The following is to be considered test fluff only. These will go into the specific partials eventually when I wake up and stop playing Mario.
 
 .CTA-Button {
   @include button();
