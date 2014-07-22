@@ -1,0 +1,58 @@
+// This is is the base SASS, includes repeated styles for the entire project - think of it as global properties.
+// Can be used for ALL projects.
+
+.Float-L {
+  float: left;
+}
+
+.Float-R {
+  float: right;
+}
+
+// The following is to be considered test fluff only.
+
+body {
+  padding-top: 50px;
+}
+
+.CTA-Button {
+  @include button();
+}
+
+.ALT-Button {
+  @include button(#CAAC27);
+}
+
+.Pagination {
+  @include pagination;
+}
+
+.Full-Bleed {
+  @include column(12);
+}
+
+.Middle-Six {
+  @include column(6);
+  @include push(3);
+  @include pull(3);
+}
+
+.Bottom-Padding {
+  padding-bottom: 5%;
+}
+
+.Top-Padding {
+  padding-top: 5%;
+}
+
+.Stand-Out {
+  @include standout(#CAAC27, 10%, 5%, true);
+}
+
+.Form {
+  @include form();
+}
+
+img {
+  @include image(0px, #868686); // the 'false' decleration at the end is a test of adding a caption space on images
+}

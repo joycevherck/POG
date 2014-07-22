@@ -2,73 +2,16 @@
 @import "utilities/_reset.scss";
 @import "utilities/_grid.scss";
 
-// Modules and Variables
-@import "base/_base.scss";
-
-// Partials
-@import "partials/_typography.scss";
-
-// Mixins
-@import "mixins/_buttons.scss";
-@import "mixins/_images.scss";
-@import "mixins/_pagination.scss";
-@import "mixins/_standout.scss";
-
-// Configure _mq
-$mq-responsive: true;
-$mq-breakpoints: (
-    mobile:  320px,
-    tablet:  740px,
-    desktop: 980px,
-    wide:    1300px,
-
-    desktopAd: 810px,
-    mobileLandscape: 480px
-);
-$mq-static-breakpoint: desktop;
-$mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
-
+// Base level fluff
+@import "partials/_variables.scss";
 @import "utilities/_mq.scss";
 
+// Modules
+@import "partials/_typography.scss";
+@import "partials/_buttons.scss";
+@import "partials/_images.scss";
+@import "partials/_pagination.scss";
+@import "partials/_standout.scss";
+@import "partials/_form.scss";
 
-body {
-  padding-top: 50px;
-}
-
-.CTA-Button {
-  @include button();
-}
-
-.ALT-Button {
-  @include button(#CAAC27);
-}
-
-.Pagination {
-  @include pagination;
-}
-
-.Full-Bleed {
-  @include column(12);
-}
-
-.Middle-Six {
-  @include column(6);
-  @include push(3);
-  @include pull(3);
-}
-
-.Bottom-Padding {
-  padding-bottom: 5%;
-}
-
-.Top-Padding {
-  padding-top: 5%;
-}
-
-.Stand-Out {
-  @include standout(#CAAC27, 10%, 5%, true);
-}
-
-img {
-  @include image(0px, #868686); // the 'false' decleration at the end is a test of adding a caption space on images
-}
+@import "partials/_base.scss";
