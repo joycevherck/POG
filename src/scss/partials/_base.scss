@@ -1,0 +1,42 @@
+// The _base.scss includes basic syles of all standard html elements.
+// The simple stuff, no classes, no component- or project level styles.
+// Included for ALL projects, but can be overwritten. 
+// If not overwritten is serves as an unbranded, clickable wireframe. 
+
+
+// Body
+// ====================================================================//
+
+body {
+	color: #333;
+}
+
+::-moz-selection {
+	background: $color1;
+	text-shadow: none;
+}
+
+::selection {
+	background: $color1;
+	text-shadow: none;
+}
+
+
+// Links
+// ====================================================================//
+
+
+// Images
+// ====================================================================//
+
+
+// Buttons
+// ====================================================================//
+
+
+// Forms
+// ====================================================================//
+
+
+// Tables
+// ====================================================================//

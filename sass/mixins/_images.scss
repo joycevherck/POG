@@ -1,9 +1,0 @@
-@mixin image($border-amount: 0, $border-colour: #868686, $caption: true) {
-  display: inline-block;
-  background-color: $border-colour;
-  margin: 10px 20px;
-  border: $border-amount solid $border-colour;
-  @if $caption == true {
-    padding-bottom: 50px;
-  }
-} 
