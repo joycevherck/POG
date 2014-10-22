@@ -12,9 +12,9 @@ Default styles come from src/scss/partials/_base.scss
 Combination of the elements, eg. media object, primary-, secondary nav, search box,  pagination, news spotlight, image gallery, hero, audio, video etc.
 
 _news-spotlight-01/  
->	_news-spotlight-01.html
->	_news-spotlight-01.sccs
-> _news-spotlight-01.js
+>	_news-spotlight-01.html  
+>	_news-spotlight-01.sccs  
+> _news-spotlight-01.js  
 >	_news-spotlight-01.md
 
 The component specific .html, .sccs, .js AND .md/.json files are   contained in the component folder to separate markup, presentation, behaviour and content right from this basic level. 
