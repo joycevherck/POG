@@ -1,13 +1,8 @@
 POG
 ===
 
-Welcome to
+Welcome to POG
 
-Ponies 
-&
-Geckos
-Giant pandas
-Goats
-...
+Ponies OR Geckos, Giant pandas, Grizzly bears and Goats...
 
-- this super simple pattern library.
+a super simple pattern library.
