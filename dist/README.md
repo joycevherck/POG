@@ -1,4 +1,4 @@
 dist
 ===
 
-The prototype is built here - frontend build output folder.
+The prototype is built here - frontend build output.

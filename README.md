@@ -1,4 +1,13 @@
 POG
 ===
 
-Welcome to this super simple pattern library. I hope you like pink.
+Welcome to
+
+Ponies 
+&
+Geckos
+Giant pandas
+Goats
+...
+
+- this super simple pattern library.
